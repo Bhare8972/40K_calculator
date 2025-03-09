@@ -146,7 +146,7 @@ Melee weapons have a range of "-". Otherwise Range is rarely used by the program
 
 Modifiers can be added. See the files for examples. These are same modifiers as listed by "printMods". The whole list of mods must have no spaces. Each mod is seperated by a comma (NO SPACE!), and the arguments of a mod are seperated by an underscore. (e.g. anti_infantry_4). 
 
-If a unit has more than one weapon, this can be specified with "number". e.g. number=3. See CSM_Chosen for a good example. Note that if number=0, than that weapon will be ignored by the "fight" command. (It is actually calculated with number=1, but not printed in the table. So that showWeap command will still work). 
+If a unit has more than one weapon, this can be specified with "num". e.g. num=3. See CSM_Chosen for a good example. Note that if num=0, than that weapon will be ignored by the "fight" command. (It is actually calculated with num=1, but not printed in the table. So that showWeap command will still work). 
 
  
 
