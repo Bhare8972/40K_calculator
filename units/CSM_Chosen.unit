@@ -1,0 +1,25 @@
+name             Chosen
+  faction        Chaos Space Marines
+  faction_short  CSM
+  num_models     5
+  toughness      4
+  save           3
+  wounds         3
+  invuln_save    -
+  feel_no_pain   - 
+  
+key_words infantry grenades chaos chosen
+
+abilities
+
+weapons
+  BoltPistol range=12 A=1 skill=3 S=4 AP=0 D=1        num=3 mods=pistol
+  Boltgun range=24 A=2 skill=3 S=4 AP=0 D=1           num=2
+  CombiWeapon range=24 A=1 skill=4 S=4 AP=0 D=1       num=2 mods=anti_infantry_4,devastatingWounds,rapidFire_1
+  PlasPistol_stand range=12 A=1 skill=3 S=7 AP=-2 D=1 num=2 mods=pistol
+  PlasPistol_super range=12 A=1 skill=3 S=8 AP=-3 D=2 mods=pistol,hazardous
+  
+  Accursed       range=- A=4 skill=3 S=5 AP=-2 D=1 num=3
+  PairedAccursed range=- A=5 skill=3 S=5 AP=-2 D=1 mods=twinLinked
+  PowerFist      range=- A=4 skill=3 S=8 AP=-2 D=2
+end_weapons

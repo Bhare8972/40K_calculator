@@ -1,0 +1,20 @@
+name             Forgefiend
+  faction        Chaos Space Marines
+  faction_short  CSM
+  num_models     1
+  toughness      10
+  save           3
+  wounds         12
+  invuln_save    5
+  feel_no_pain   - 
+  
+key_words vehicle walker chaos daemon forgefiend
+
+abilities
+
+weapons
+  Ectoplasma range=36 A=D3 skill=3 S=10 AP=-3 D=3 mods=blast
+  Autocannon range=36 A=6 skill=3 S=8 AP=-1 D=2
+  Limbs range=- A=2 skill=3 S=6 AP=0 D=2
+  Jaws range=- A=5 skill=3 S=7 AP=0 D=2
+end_weapons

@@ -1,0 +1,32 @@
+name             Helbrute
+  faction        Chaos Space Marines
+  faction_short  CSM
+  num_models     1
+  toughness      9
+  save           2
+  wounds         8
+  invuln_save    -
+  feel_no_pain   - 
+  
+key_words vehicle walker chaos helbrute
+
+abilities
+
+weapons
+  CombiBolter range=24 A=2 skill=3 S=4 AP=0 D=1
+  HeavyFlamer range=12 A=D6 skill=- S=5 AP=-1 D=1 mods=ignoresCover,torrent
+  PlasCannon range=36 A=D3 skill=3 S=8 AP=-3 D=3 mods=blast
+  Missile_Frag range=48 A=D6 skill=3 S=4 AP=0 D=1 mods=blast
+  Missile_Krak range=48 A=1 skill=3 S=9 AP=-2 D=D6
+  MultiMelta range=18 A=2 skill=3 S=9 AP=-4 D=D6 mods=melta_2
+  Autocannon range=48 A=2 skill=3 S=9 AP=-1 D=3
+  HeavyBolter range=36 A=3 skill=3 S=5 AP=-1 D=2 mods=sustainedHits_1,twinLinked
+  LasCannon range=48 A=1 skill=3 S=12 AP=-3 D=D6+1 mods=twinLinked
+  
+  Closecombat range=- A=5 skill=3 S=6 AP=0 D=1
+  Fist range=- A=5 skill=3 S=12 AP=-2 D=3
+  Hammer range=- A=5 skill=4 S=14 AP=-3 D=D6+1
+  Scourge range=- A=8 skill=3 S=7 AP=-1 D=2
+  
+  
+end_weapons

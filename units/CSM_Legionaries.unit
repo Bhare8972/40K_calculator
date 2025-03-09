@@ -1,0 +1,38 @@
+name             Legionaries
+  faction        Chaos Space Marines
+  faction_short  CSM
+  num_models     5
+  toughness      4
+  save           3
+  wounds         2
+  invuln_save    -
+  feel_no_pain   - 
+  
+key_words infantry, battleline, chaos, grenades, legionaries
+
+abilities
+
+weapons
+
+  BalefireTome range=18 A=2 skill=3 S=5 AP=-1 D=1 mods=psychic
+  BoltPistol   range=12 A=1 skill=3 S=4 AP=0  D=1 mods=pistol
+  Boltgun      range=24 A=2 skill=3 S=4 AP=0  D=1
+  Flamer      range=12 A=D6 skill=- S=4 AP=0  D=1 mods=ignoresCover,torrent
+  Autocannon   range=48 A=2 skill=4 S=9 AP=-1 D=3
+  HeavyBolter  range=36 A=3 skill=4 S=5 AP=-1 D=2 mods=heavy,sustainedHits_1
+  Lascannon    range=48 A=1 skill=4 S=12 AP=-3 D=D6+1 mods=heavy
+  Meltagun     range=12 A=1 skill=3 S=9 AP=-4 D=D6 mods=melta_2
+  Missile_frag range=48 A=D6 skill=4 S=4 AP=0 D=1 mods=blast,heavy
+  Missile_krak range=48 A=1 skill=4 S=9 AP=-2 D=D6 mods=heavy
+  PlasGun_stand range=24 A=1 skill=3 S=7 AP=-2 D=1 mods=rapidFire_1
+  PlasGun_super range=24 A=1 skill=3 S=8 AP=-3 D=2 mods=rapidFire_1,hazardous
+  PlasPistol_stand range=12 A=1 skill=3 S=7 AP=-2 D=1 mods=pistol
+  PlasPistol_super range=12 A=1 skill=3 S=8 AP=-3 D=2 mods=pistol,hazardous
+  Chaincannon   range=24 A=8 skill=4 S=5 AP=0 D=1 mods=heavy
+  
+  Accursed     range=- A=4 skill=3 S=5 AP=-2 D=1
+  Chainsword   range=- A=4 skill=3 S=4 AP=-1 D=1
+  Closecombat  range=- A=3 skill=3 S=4 AP=0  D=1
+  HeavyMelee   range=- A=3 skill=3 S=8 AP=-2 D=2  
+  
+end_weapons

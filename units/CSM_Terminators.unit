@@ -1,0 +1,26 @@
+name             Terminators
+  faction        Chaos Space Marines
+  faction_short  CSM
+  num_models     5
+  toughness      5
+  save           2
+  wounds         3
+  invuln_save    4
+  feel_no_pain   - 
+  
+key_words infantry chaos terminator chaos_terminator_squad
+
+abilities
+
+weapons
+  CombiBolter range=24 A=2 skill=3 S=4 AP=0 D=1 mods=rapidFire_2
+  CombiWeapon range=24 A=1 skill=4 S=4 AP=0 D=1 mods=anti_infantry_4,devastatingWounds,rapidFire_1
+  HeavyFlamer range=12 A=D6 skill=- S=5 AP=-1 D=1 mods=ignoresCover,torrent
+  Autocannon range=36 A=4 skill=3 S=7 AP=-1 D=1 mods=devastatingWounds,sustainedHits_1
+  
+  Accursed range=- A=4 skill=3 S=5 AP=-2 D=1
+  Chainfist range=- A=3 skill=4 S=8 AP=-2 D=2 mods=anti_vehicle_3
+  PairedAccursed range=- A=5 skill=3 S=5 AP=-2 D=1 mods=twinLinked
+  Powerfist range=- A=3 skill=3 S=8 AP=-2 D=2
+  
+end_weapons
