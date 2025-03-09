@@ -1,0 +1,6 @@
+clearMods
+addMod sustainedHits_1
+addMod reRollHits_1
+fight CSM_C? CSM_L?
+fight CSM_C? CSM_T?
+fight CSM_C? CSM_F?
